@@ -1,11 +1,11 @@
-# Cancer Hallmark Network
+# Cancer Hallmarks Network
 
-This repository contains the multiscale cancer hallmark network developed for a PhD thesis in systems cancer biology.
+This repository contains the multiscale cancer hallmarks network developed for a PhD thesis in systems cancer biology.
 
 ## Contents
 
-- GraphML network models
-- Boolean network (.bnet) files
+- GraphML network model
+- Boolean network (.bnet) file
 - Hallmark annotations
 - Simulation scripts
 - Supporting metadata
