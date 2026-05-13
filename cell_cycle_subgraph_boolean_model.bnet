@@ -1,0 +1,168 @@
+targets, factors
+AMPK,                                                      P53 | ATM
+AP1_TF,                                                    MAPK_ERK
+APC,                                                       CycB | !CycA
+ATM,                                                       Tel_2 | TGF_b | ROS | MDC_1 | Insulin | IGF_1R | Hypoxia | HINT_1 | DNA_damage
+Actin_cytoskeleton_Membrane_protrusion_Cell_polarization,  APC
+Adheren_junction_organization,                             Scrib | E_Cadherin | Dlg
+Ang_1,                                                     !MYC
+Ang_2,                                                     MYC
+Anoikis,                                                   !XIAP | Tetraploidy_checkpoint | DAPK_2 | !Cell_aggregation_cell_cell_adhesion | !CIAP | CHEK2 | Bak
+Apaf1,                                                     P53 | E2F3
+Apoptosis,                                                 Tetraploidy_checkpoint | !Survivin | Pp32 | P53 | !NF_kB | !Mitotic_spindle_checkpoint | JNK | !HDAC2 | Caspase_3 | CHEK2 | !CD44
+Asef,                                                      APC
+Aurora_a,                                                  Aurora_a
+Aurora_b,                                                  FoxM
+Autophagy_Phagocytosis,                                    !mTOR | P53 | !CD_47 | Bax | Apoptosis | Anoikis
+BCL_2,                                                     NF_kB | E2F1
+BCL_XL,                                                    Ras | !PUMA | NF_kB | EIF4E | !DAPK_2 | !Bax
+BRCA1,                                                     CHEK2
+BRCA2,                                                     FoxM | CHEK1
+Bak,                                                       !Ras | PUMA | !P53 | !BCL_XL | !BCL_2
+Bax,                                                       Rb | PUMA | P53 | !NF_kB | MYC | !BCL_2
+BubR1,                                                     P53 | Mitotic_spindle_damage
+CD44,                                                      !P53
+CD74,                                                      Rb
+CD_47,                                                     MYC
+CHEK1,                                                     !PI3K_AKT | ATM
+CHEK2,                                                     !Ras | ATM
+CIAP,                                                      TGF_b | !Diablo
+CXCL1,                                                     Rb
+Cancer_stem_cell_development,                              ZEB | Survivin | SNAIL | SLUG | Nanog | !MYC
+Caspase_3,                                                 Caspase_8
+Caspase_8,                                                 Caspase_8
+Ccl5,                                                      Rb | NF_kB
+Cdc25A,                                                    !SMAD_3 | MYC | FoxM | !CHEK2
+Cell_aggregation_cell_cell_adhesion,                       E_Cadherin
+Cell_cycle_arrest,                                         P21 | P15
+Cell_proliferation,                                        !P53 | !Dlg
+Centromere_amplification,                                  !Tetraploidy_checkpoint | Rb | !P53 | !Mitotic_spindle_checkpoint | G2_M | CycE | CycA | !BRCA1
+Chromosomal_cohesion,                                      Cohesin
+Chromosomal_instability,                                   MYC | !G1_S | DNA_damage | !Chromosomal_cohesion | Centromere_amplification | !APC
+Cohesin,                                                   Rb
+Condensin_2,                                               Rb
+CycA,                                                      !P27 | !P21
+CycB,                                                      Tetraploidy | !P27 | !P21 | MYC | !GADD45_b | FoxM | Cdc25A | !APC
+CycD,                                                      b_catenin | STAT | P27 | P21 | !P16 | NF_kB | MYC | !GSK3_b | AP1_TF
+CycE,                                                      !P27 | !P21 | E2F1
+DAPK_2,                                                    !b_catenin
+DNA_damage,                                                SSB | RNS | NER | IR | INDEL | HR | DSB | !DNA_repair
+DNA_repair,                                                y_H2AX | !Pol_b | !Fen_1 | DSB_repair | ATM
+DSB,                                                       SSB
+DSB_repair,                                                Rad51 | P53 | !MYC | MDC_1 | DSB | BRCA2 | ATM
+Diablo,                                                    Diablo
+Dlg,                                                       APC
+E2F1,                                                      !Rb | !CycA
+E2F3,                                                      !Rb
+E7,                                                        E7
+EA1,                                                       EA1
+EB1,                                                       APC
+ECM_Invasion_remodelling,                                  !E_Cadherin | EMT
+EGFR,                                                      CD44
+EIF4E,                                                     MYC | ATM
+EMT,                                                       !P53 | !E_Cadherin | Cell_proliferation | !Cell_aggregation_cell_cell_adhesion
+ERBB,                                                      ERBB
+E_Cadherin,                                                b_catenin | !ZEB | !SNAIL | !SLUG | !SIP_1 | !Rb | P115_RhoGef | !Fak | !Asef | !Ang_2
+F_actin,                                                   APC
+Fak,                                                       !APC
+Fen_1,                                                     APC
+FoxM,                                                      CHEK2
+G1_S,                                                      !Tetraploidy_checkpoint | PCNA | !P53 | P27 | !Mitotic_spindle_checkpoint | !GADD45_b | E2F1 | !Dlg | CycE | CycD | !CycB | !Cdc25A
+G2_M,                                                      Plk_1 | G1_S | CycB | CycA | Cdc25A | Aurora_b
+GADD45_b,                                                  P53 | NF_kB | !MYC
+GSK3_b,                                                    !b_catenin | !PI3K_AKT
+Gls1,                                                      MYC
+Gls2,                                                      P53
+Glul,                                                      !MYC
+Glut1_4,                                                   P53 | !MYC | HIF1a
+Glycolysis,                                                Senescence | PGM | !P53 | NF_kB | LDHA | HK2 | Glut1_4
+HDAC2,                                                     !APC
+HIF1a,                                                     mTOR | NF_kB | ATM
+HINT_1,                                                    HINT_1
+HK2,                                                       MYC
+HR,                                                        HR
+Hypoxia,                                                   Hypoxia
+IFN_b,                                                     Rb
+IGF_1R,                                                    !IGF_BP3
+IGF_BP3,                                                   P53
+IKK,                                                       !P53 | !Autophagy_Phagocytosis | ATM
+INDEL,                                                     !P53
+IR,                                                        IR
+Insulin,                                                   !NF_kB
+Integrins,                                                 !MYC
+Invasiveness_migration,                                    Replicative_immortality | PI3K_AKT | !P53 | N_Cadherin | !Maspin | Integrins | !E_Cadherin | EMT | ECM_Invasion_remodelling | Cell_proliferation | Cancer_stem_cell_development | Actin_cytoskeleton_Membrane_protrusion_Cell_polarization
+JNK,                                                       !Rb | IKK | !GADD45_b
+LATS_2,                                                    PI3K_AKT | P53 | CHEK1 | !Aurora_a
+LDHA,                                                      Pyruvate | MYC | HIF1a
+Lipid_metabolism_deregulation,                             MYC
+MAPK_ERK,                                                  MEK | ATM
+MDC_1,                                                     ATM
+MDM2,                                                      PI3K_AKT | P53 | NF_kB | !LATS_2 | EGFR | !ATM
+MEK,                                                       Raf
+MYC,                                                       mTOR | b_catenin | !SMAD_Complex | !Rb | NF_kB | MAPK_ERK | GSK3_b
+Macrophage,                                                Rb | Ccl5
+Maspin,                                                    P53
+Mevalonate_pathway,                                        P53
+Mitotic_spindle_checkpoint,                                BubR1&!EB1
+Mitotic_spindle_damage,                                    Mitotic_spindle_damage
+NER,                                                       NER
+NF_kB,                                                     Rb | PI3K_AKT | !PD_L1 | PAMP | !P53 | IKK | ATM
+N_Cadherin,                                                ZEB | !MYC
+Nanog,                                                     !P53
+P115_RhoGef,                                               APC
+P15,                                                       TGF_b | SMAD_Complex | !MYC
+P16,                                                       P16
+P21,                                                       TGF_b | SMAD_Complex | P53 | !MYC | HIF1a | !FoxM | !CycD
+P27,                                                       !PI3K_AKT | !MYC | !FoxM | !CycE | !CycD
+P53,                                                       ROS | !Plk_1 | MYC | !MDM2 | !IKK | !Fak | E2F1 | DNA_damage | DAPK_2 | CHEK2 | BubR1 | !Aurora_a | ATM
+PAMP,                                                      Rb
+PCNA,                                                      !P21 | GADD45_b | APC
+PD_L1,                                                     MYC
+PGE,                                                       PGE
+PGM,                                                       !P53
+PI3K_AKT,                                                  STAT | !PTEN | Insulin | IGF_1R | ATM
+PTEN,                                                      P53
+PUMA,                                                      P53
+Plk_1,                                                     FoxM
+Pol_b,                                                     PCNA
+Pp32,                                                      !Rb
+Pyruvate,                                                  MYC
+RNS,                                                       NF_kB
+ROS,                                                       !Gls2
+Rad51,                                                     !P53 | CHEK2 | CHEK1
+Raf,                                                       Ras
+Ras,                                                       Insulin | ERBB
+Rb,                                                        !MDM2 | EA1 | !E7 | !CycE | !CycD | !Caspase_3
+Replicative_immortality,                                   !MYC
+SCO_2,                                                     P53
+SIP_1,                                                     TGF_b
+SLUG,                                                      TGF_b | !MDM2 | !GSK3_b
+SMAD_3,                                                    SMAD_7 | !SMAD_6 | SIP_1 | !PGE
+SMAD_6,                                                    SMAD_6
+SMAD_7,                                                    SMAD_7
+SMAD_Complex,                                              SMAD_Complex
+SNAIL,                                                     b_catenin | TGF_b | !GSK3_b | Ang_2
+SOX_9,                                                     !ATM
+SSB,                                                       SSB
+STAT,                                                      STAT
+Scrib,                                                     APC
+Senescence,                                                mTOR | Tetraploidy_checkpoint | Rb | P53 | !CycD | Cell_cycle_arrest | Autophagy_Phagocytosis
+Stress_resistance_Cell_survival_Proliferation,             P53 | MYC | Cdc25A | ATM
+Survivin,                                                  b_catenin
+TGF_b,                                                     !SMAD_7 | !PI3K_AKT
+TIGAR,                                                     P53
+TLR3,                                                      Rb
+TRF_1,                                                     !ATM
+TSP1_2,                                                    PI3K_AKT | !MYC
+TUMOR,                                                     !BRCA2 | !BRCA1
+Tel_2,                                                     Tel_2
+Tetraploidy,                                               !Tetraploidy_checkpoint | Plk_1 | Centromere_amplification | Aurora_b | Aurora_a
+Tetraploidy_checkpoint,                                    Mitotic_spindle_checkpoint | LATS_2
+VEGF,                                                      NF_kB | MYC | Hypoxia | HIF1a
+WNT,                                                       ATM
+XIAP,                                                      Ras | !Diablo
+XPC,                                                       P53
+ZEB,                                                       b_catenin | SNAIL | SLUG
+b_catenin,                                                 !GSK3_b | Fak | !E_Cadherin | ATM | !APC
+mTOR,                                                      Tel_2 | !Rb | PI3K_AKT
+y_H2AX,                                                    HINT_1 | ATM
