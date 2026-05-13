@@ -1,6 +1,6 @@
 # Cancer Hallmarks Network
 
-This repository contains the multiscale cancer hallmarks network developed for a PhD thesis in systems cancer biology.
+This repository contains the multiscale cancer hallmarks network developed for a PhD thesis in complex systems modelling.
 
 ## Contents
 
