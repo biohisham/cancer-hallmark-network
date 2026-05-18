@@ -34,3 +34,4 @@ Used for Boolean simulations and attractor analysis.
 
 Please cite:
 H. Eldai, Decoding Multiscale Heterogeneity in Complex Systems Modelling (PhD Thesis), Lincoln University, 2026.
+[![DOI](https://zenodo.org/badge/1237622159.svg)](https://doi.org/10.5281/zenodo.20158851)
