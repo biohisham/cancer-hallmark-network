@@ -13,9 +13,14 @@ This repository contains the multiscale cancer hallmarks network developed for a
 ## Software
 
 Networks were analysed using:
-- Cytoscape
-- R
-- MaBoSS
+- MaBoSS (2.4.0)
+- R (4.1.2)
+- RStudio (2023.09.1+494)
+
+Networks were visualised using:
+- Cytoscape (3.8.0)
+- yED graph editor (3.19.1.1)
+- iGraph (2.1.1)
 
 ## File Formats
 
